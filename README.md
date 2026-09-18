@@ -26,7 +26,7 @@
 
 ```text
 请安装并使用这个 GitHub 仓库中的 yans-job-vault Skill：
-<你的 GitHub 仓库链接>
+https://github.com/sickenera-code/yans-job-vault
 
 读取完整 SKILL.md 和所引用的资源，把整个仓库安装到当前 Agent 的用户级 Skill 目录。不要只复制 SKILL.md。安装完成后，使用它和我提供的简历，在我指定的目录创建 Obsidian 秋招求职仓库。
 ```
@@ -45,13 +45,13 @@ Agent 应当根据自己的运行环境选择技能目录。常见目录包括�
 Claude Code：
 
 ```bash
-git clone <你的 GitHub 仓库链接> ~/.claude/skills/yans-job-vault
+git clone https://github.com/sickenera-code/yans-job-vault.git ~/.claude/skills/yans-job-vault
 ```
 
 Codex：
 
 ```bash
-git clone <你的 GitHub 仓库链接> ~/.agents/skills/yans-job-vault
+git clone https://github.com/sickenera-code/yans-job-vault.git ~/.agents/skills/yans-job-vault
 ```
 
 如果目标目录已经存在，不要再次克隆覆盖。先备份用户修改，再使用 `git pull` 更新。
@@ -121,4 +121,3 @@ Copyright © 2026 aheart Yan.
 本项目采用 [MIT License](LICENSE)。他人可以使用、修改和传播，但副本或重要部分中必须保留版权声明和许可声明。
 
 项目整合方法和模板的来源范围记录在 [references/provenance.md](references/provenance.md)。该署名只适用于本项目的仓库设计、页面模板、脚本与技能整合，不将用户的简历、经历或个人笔记归为项目创作者作品。
-
