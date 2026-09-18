@@ -1,0 +1,3 @@
+interface:
+  display_name: "Yan's job vault"
+  short_description: "从简历部署 Obsidian 求职仓库，联动投递、岗位资料与简历深挖"
